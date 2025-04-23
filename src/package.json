@@ -2,7 +2,7 @@
   "name": "catopalian-javascript-nwjs-system-info",
   "version": "1.0.0",
   "description": "Gets System Info",
-  "main": "./CATopalian_JavaScript_NW.js_Node.js_Tutorial.html",  
+  "main": "./CATopalian_JavaScript_NW.js_System_Info_and_File_System.html",  
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "nw ."
