@@ -1,0 +1,19 @@
+{
+  "name": "catopalian-javascript-nwjs-system-info",
+  "version": "1.0.0",
+  "description": "Gets System Info",
+  "main": "./CATopalian_JavaScript_NW.js_Node.js_Tutorial.html",  
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nw ."
+  },
+  "window": {
+      "width": 800,
+      "height": 600
+  },
+  "keywords": [],
+  "author": "Christopher Andrew Topalian",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}

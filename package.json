@@ -1,0 +1,30 @@
+{
+    "name": "catopalian-javascript-nwjs-system-info-and-file-system",
+    "version": "1.0.0",
+    
+    "window": {
+      "width": 800,
+      "height": 200
+    },
+
+    "scripts": {
+        "dev": "nw src/",
+        "build": "nwbuild --platform win --arch x64 --outDir dist/src --glob=false src"
+      },
+
+    "build": {
+      "nwVersion": "0.82.0.0",
+      "platforms": [
+        "win64"
+      ],
+
+      "outputFormat": "exe",
+      "buildDir": "./build",
+      "cacheDir": "./cache",
+      "src": ["./src/**/*"]
+    },
+
+    "devDependencies": {
+      "nw-builder": "^4.4.2-beta.4"
+    }
+  }
