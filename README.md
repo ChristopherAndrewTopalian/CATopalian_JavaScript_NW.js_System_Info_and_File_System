@@ -3,6 +3,10 @@ A JavaScript NW.js Node.js application that teaches System Info and File System 
 
 ---
 
+![screenshot_001](src/src/media/textures/screenshots/001a.PNG)
+
+---
+
 REQUIREMENTS:
 
 NW.js  

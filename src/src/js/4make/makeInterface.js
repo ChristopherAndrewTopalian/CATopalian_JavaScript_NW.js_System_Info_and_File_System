@@ -14,6 +14,24 @@ function makeInterface()
 
     //-//
 
+    let theTitle = ce('a');
+    theTitle.id = 'theTitle';
+    theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_NW.js_System_Info_and_File_System';
+    theTitle.target = '_blank';
+    theTitle.textContent = 'CATopalian JavaScript NW.js System Info and File System';
+    theTitle.style.margin = '4px';
+    theTitle.style.fontSize = '15px';
+    theTitle.style.fontFamily = 'Arial';
+    theTitle.style.fontWeight = 'bold';
+    theTitle.style.color = 'rgb(140, 140, 140)';
+    theTitle.style.textAlign = 'right';
+    theTitle.style.textDecoration = 'none';
+    theTitle.style.display = 'block';
+    theTitle.style.marginLeft = 'auto';
+    subDiv.append(theTitle);
+
+    //-//
+
     let textDiv = ce('div');
     textDiv.style.display = 'flex';
     textDiv.style.flexDirection = 'column';
